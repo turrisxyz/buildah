@@ -3,8 +3,8 @@ module github.com/containers/buildah
 go 1.16
 
 require (
-	github.com/containerd/containerd v1.6.3
-	github.com/containernetworking/cni v1.1.0
+	github.com/containerd/containerd v1.6.17
+	github.com/containernetworking/cni v1.1.1
 	github.com/containers/common v0.47.5-0.20220421111103-112a47964ddb
 	github.com/containers/image/v5 v5.21.1-0.20220421124950-8527e238867c
 	github.com/containers/ocicrypt v1.1.3
@@ -23,7 +23,7 @@ require (
 	github.com/onsi/gomega v1.19.0
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.0.3-0.20211202193544-a5463b7f9c84
-	github.com/opencontainers/runc v1.1.1
+	github.com/opencontainers/runc v1.1.2
 	github.com/opencontainers/runtime-spec v1.0.3-0.20210326190908-1c3f411f0417
 	github.com/opencontainers/runtime-tools v0.9.0
 	github.com/opencontainers/selinux v1.10.1
@@ -38,7 +38,7 @@ require (
 	go.etcd.io/bbolt v1.3.6
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20220227234510-4e6760a101f9
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
 )
 
